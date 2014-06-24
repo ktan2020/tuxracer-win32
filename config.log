@@ -1,0 +1,128 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:596: checking for a BSD compatible install
+configure:649: checking whether build environment is sane
+configure:706: checking whether make sets ${MAKE}
+configure:752: checking for working aclocal
+configure:765: checking for working autoconf
+configure:778: checking for working automake
+configure:791: checking for working autoheader
+configure:804: checking for working makeinfo
+configure:828: checking host system type
+configure:856: checking for gcc
+configure:969: checking whether the C compiler (gcc  ) works
+configure:985: gcc -o conftest    conftest.c  1>&5
+configure:1011: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:1016: checking whether we are using GNU C
+configure:1044: checking whether gcc accepts -g
+configure:1085: checking for c++
+configure:1117: checking whether the C++ compiler (c++  ) works
+configure:1133: c++ -o conftest    conftest.C  1>&5
+configure:1159: checking whether the C++ compiler (c++  ) is a cross-compiler
+configure:1164: checking whether we are using GNU C++
+configure:1192: checking whether c++ accepts -g
+configure:1227: checking for ranlib
+configure:1256: checking how to run the C preprocessor
+configure:1336: checking for ANSI C header files
+configure:1443: checking for sys/time.h
+configure:1443: checking for unistd.h
+configure:1481: checking for working const
+configure:1556: checking whether time.h and sys/time.h may both be included
+configure:1594: checking for getcwd
+configure:1594: checking for gettimeofday
+configure:1594: checking for strdup
+configure:1650: checking for finite
+configure:1650: checking for isnan
+configure:1705: checking for _finite
+configure:1705: checking for _isnan
+configure:1761: checking for ieeefp.h
+configure:1834: checking for Win32 platform
+configure:2701: checking for main in -ldl
+configure:2737: checking for main in -lm
+configure:2805: checking for tcl84 library
+configure:2815: gcc -o conftest    conftest.c   -luser32 -lgdi32 -ldl -lm -L/usr/local/lib -ltcl84 1>&5
+configure:2923: checking for tcl.h
+configure:2930: gcc -E   -I/usr/local/include conftest.c >/dev/null 2>conftest.out
+configure:3145: checking for sdl-config
+configure:3180: checking for SDL - version >= 1.0.1
+configure:3265: gcc -o conftest  -I/usr/local/include/SDL -D_GNU_SOURCE=1 -Dmain=SDL_main   conftest.c  -L/usr/local/lib -lmingw32 -lSDLmain -lSDL -mwindows 1>&5
+configure:3355: checking for SDL_JoystickOpen
+configure:3415: checking for Mix_OpenAudio in -lSDL_mixer
+configure:3505: checking for GL library
+configure:3515: gcc -o conftest    conftest.c   -luser32 -lgdi32 -ldl -lm -L/usr/local/lib -ltcl84 -L/usr/local/lib -lmingw32 -lSDLmain -lSDL -mwindows -lSDL_mixer  -lGL 1>&5
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot find -lGL
+collect2.exe: error: ld returned 1 exit status
+configure: failed program was:
+#line 3508 "configure"
+#include "confdefs.h"
+
+int main() {
+
+; return 0; }
+configure:3533: checking for GL library (with pthreads)
+configure:3543: gcc -o conftest    conftest.c   -luser32 -lgdi32 -ldl -lm -L/usr/local/lib -ltcl84 -L/usr/local/lib -lmingw32 -lSDLmain -lSDL -mwindows -lSDL_mixer  -lGL -lpthread 1>&5
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot find -lGL
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot find -lpthread
+collect2.exe: error: ld returned 1 exit status
+configure: failed program was:
+#line 3536 "configure"
+#include "confdefs.h"
+
+int main() {
+
+; return 0; }
+configure:3572: checking for MesaGL library
+configure:3582: gcc -o conftest    conftest.c   -luser32 -lgdi32 -ldl -lm -L/usr/local/lib -ltcl84 -L/usr/local/lib -lmingw32 -lSDLmain -lSDL -mwindows -lSDL_mixer  -lMesaGL 1>&5
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot find -lMesaGL
+collect2.exe: error: ld returned 1 exit status
+configure: failed program was:
+#line 3575 "configure"
+#include "confdefs.h"
+
+int main() {
+
+; return 0; }
+configure:3600: checking for MesaGL library (with pthreads)
+configure:3610: gcc -o conftest    conftest.c   -luser32 -lgdi32 -ldl -lm -L/usr/local/lib -ltcl84 -L/usr/local/lib -lmingw32 -lSDLmain -lSDL -mwindows -lSDL_mixer  -lMesaGL -lpthread 1>&5
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot find -lMesaGL
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot find -lpthread
+collect2.exe: error: ld returned 1 exit status
+configure: failed program was:
+#line 3603 "configure"
+#include "confdefs.h"
+
+int main() {
+
+; return 0; }
+configure:3572: checking for opengl32 library
+configure:3582: gcc -o conftest    conftest.c   -luser32 -lgdi32 -ldl -lm -L/usr/local/lib -ltcl84 -L/usr/local/lib -lmingw32 -lSDLmain -lSDL -mwindows -lSDL_mixer  -lopengl32 1>&5
+configure:3787: checking for glXGetProcAddressARB
+configure:3863: checking for GLU library
+configure:3873: gcc -o conftest    conftest.c   -luser32 -lgdi32 -ldl -lm -L/usr/local/lib -ltcl84 -L/usr/local/lib -lmingw32 -lSDLmain -lSDL -mwindows -lSDL_mixer  -lopengl32 -lGLU 1>&5
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot find -lGLU
+collect2.exe: error: ld returned 1 exit status
+configure: failed program was:
+#line 3866 "configure"
+#include "confdefs.h"
+
+int main() {
+
+; return 0; }
+configure:3897: checking for MesaGLU library
+configure:3907: gcc -o conftest    conftest.c   -luser32 -lgdi32 -ldl -lm -L/usr/local/lib -ltcl84 -L/usr/local/lib -lmingw32 -lSDLmain -lSDL -mwindows -lSDL_mixer  -lopengl32 -lMesaGLU 1>&5
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot find -lMesaGLU
+collect2.exe: error: ld returned 1 exit status
+configure: failed program was:
+#line 3900 "configure"
+#include "confdefs.h"
+
+int main() {
+
+; return 0; }
+configure:3897: checking for glu32 library
+configure:3907: gcc -o conftest    conftest.c   -luser32 -lgdi32 -ldl -lm -L/usr/local/lib -ltcl84 -L/usr/local/lib -lmingw32 -lSDLmain -lSDL -mwindows -lSDL_mixer  -lopengl32 -lglu32 1>&5
+configure:3956: checking for GL/gl.h
+configure:3963: gcc -E    -I/usr/local/include -DTCL_HEADER=\<tcl.h\> -DHAVE_SDL=1 -DHAVE_SDL_MIXER=1 conftest.c >/dev/null 2>conftest.out
+configure:4095: checking for GL/glext.h
+configure:4144: checking whether glext.h is recent enough
